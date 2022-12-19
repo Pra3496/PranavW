@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿body {
     background-color: #EAF6F6;
 }
@@ -39,45 +39,3 @@ hr {
 img:hover {
     background-color: gold;
 }
-=======
-﻿body {
-    background-color: #EAF6F6;
-}
-
-
-h1{
-    color: #66BFBF;
-}
-
-h3 {
-    color: #808080;
-}
-
-
-
-.Dp {
-    width: 250px;
-    height: 250px;
-}
-
-
-
-hr {
-    background-color: white;
-    border-style: none;
-    border-top-style:dotted;        
-    border-color: gray;
-    border-width: 5px;
-    width:5%;
-}
-
-.logo {
-    
-    height: 40px;
-    width: 40px;
-}
-
-img:hover {
-    background-color: gold;
-}
->>>>>>> 9939675c0478aaff7132b705677bf52299b5780e
