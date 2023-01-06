@@ -9,16 +9,25 @@
 </head>
 <body>
 
-<div style="text-align:center; padding-top: 50px;">
-    <h1>Thank you!</h1>
-    <p>Your submission has been received.</p>
+<div class="th">
+    <h1 >Thank you!</h1>
+    <p >Your submission has been received.</p>
     <p>This page will redirect in <span id="timer"></span>s.</p>
 </div>
+
+<div class="loader">
+        <div class="face">
+            <div class="circle"></div>
+        </div>
+        <div class="face">
+            <div class="circle"></div>
+        </div>
+    </div>
 
 
 <script>
   var count = 5;
-    var redirect = "https://pra3496.github.io/PranavW/";
+    var redirect = "https://github.com/Pra3496";
     
     function countDown() {
         if(count >= 0){
