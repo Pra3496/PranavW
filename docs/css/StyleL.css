@@ -1,10 +1,16 @@
 
+h1{
+    color: #66BFBF;
+}
+p{
+   color: red;
+}
 .th 
 {
     text-align: center;  
-    padding-bottom: 250px; 
+    padding-bottom: 400px; 
     position: absolute;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 body{
@@ -15,8 +21,8 @@ body{
     height: 80vh;
 }
 .loader {
-    width: 6em;
-    height: 6em;
+    width: 15em;
+    height: 15em;
     font-size: 10px;
     position: relative;
     display: flex;
@@ -38,18 +44,18 @@ body{
     color: gold;
     border-color: currentColor 
     transparent transparent currentColor;
-    border-width: 0.2em 0.2em 0em 0em;
+    border-width: 0.5em 0.5em 0em 0em;
     --deg: -45deg;
     animation-direction: normal;
   }
   
   .loader .face:nth-child(2) {
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 88%;
     color: lime;
     border-color: currentColor 
     currentColor transparent transparent;
-    border-width: 0.2em 0em 0em 0.2em;
+    border-width: 0.5em 0em 0em 0.5em;
     --deg: -135deg;
     animation-direction: reverse;
   }
